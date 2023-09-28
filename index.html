@@ -11,7 +11,7 @@
             navigator.geolocation.getCurrentPosition(function(position) {
                 var latitude = position.coords.latitude;
                 var longitude = position.coords.longitude;
-                console.log("https://www.google.com/maps/place/" + latitude + "," + longitude);
+                console.log("latitude,longitude);
             }, function(error) {
                 switch (error.code) {
                     case error.PERMISSION_DENIED:
